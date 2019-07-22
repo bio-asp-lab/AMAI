@@ -25,10 +25,8 @@ function main() {
 
   // Add navigator listener to jump to different sections.
   let navigators = document.getElementsByClassName('change-sect');
-  let sectionArr = [document.getElementById('news'),
-                    document.getElementById('about'),
-                    document.getElementById('research'),
-                    document.getElementById('publication'),
+  let sectionArr = [document.getElementById('home'),
+                    document.getElementById('speaker'),
                     document.getElementById('contact')];
   for (let i = 0; i < navigators.length; ++i) {
     navigators[i].addEventListener('click', function() {
